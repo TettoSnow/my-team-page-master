@@ -50,7 +50,7 @@ header {
  }
 
  .conteudo div {
-   width: 266px;
+   max-width: 266px;
  }
 
 .conteudo img{
@@ -101,9 +101,10 @@ header {
       margin-top: 60px;
     }
     
-    .conteudo img {
-       width: 100%;
+    .conteudo div:nth-child(5){
+      margin-top: 0px;
     }
+
  }
 
 .desc-1 {
@@ -141,4 +142,5 @@ footer p {
    text-align: center;
    color: #A9A9A9;
    padding: 20px;
+   margin-top: 30px;
 }
